@@ -1,0 +1,29 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "week 10 homework assignment",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest-environment-jsdom": "^26.6.2",
+    "jsdom": "^16.4.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewAbianco/team-profile-generator.git"
+  },
+  "author": "Matthew Bianco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewAbianco/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/matthewAbianco/team-profile-generator#readme"
+}
