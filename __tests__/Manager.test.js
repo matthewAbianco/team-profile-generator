@@ -7,7 +7,7 @@ test('creates a manager object',() =>
 
     expect(manager.name).toBe('matthew');
     expect(manager.id).toBe(1);
-    expect(manager.email).toBe('matthewbianco@hotmail.com');
+    expect(manager.email).toBe('matthewbianco@protonmail.com');
     expect(manager.officeNumber).toBe(1);
 });
 
