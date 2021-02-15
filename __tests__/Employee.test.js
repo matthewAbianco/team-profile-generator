@@ -5,7 +5,7 @@ test('creates an Employee object',()=>
     const employee = new Employee('matthew',1,'matthewbianco@protonmail.com');
 
     expect(employee.name).toBe('matthew');
-    expect(employee.id).toBe(2);
+    expect(employee.id).toBe(1);
     expect(employee.email).toBe('matthewbianco@protonmail.com');
 });
 
@@ -33,10 +33,3 @@ test('get an Employee email',()=>
 
 });
 
-test('get an Employee role',()=>
-{
-    const employee = new Employee('matthew',1,'matthewbianco@protonmail.com');
-
-    expect(employee.getRole()).toEqual('Employee');
-
-});
